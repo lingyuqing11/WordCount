@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class Count {
-    public static void main(String[] args){
+    public static void main(String[] args)throws NoParameterException{
         /*
         try{
             if(0==args.length){
@@ -14,6 +14,14 @@ public class Count {
             System.out.println(e.getMessage());
         }
         */
+        int charFlag=0;
+        int wordFlag=0;
+        int lineFlag=0;
+        if(0==args.length){
+            throw new NoParameterException();
+        }
+
+
         int charNum=0; //字符数
         int wordNum=0; //单词数
         int lineNum=1; //行数
