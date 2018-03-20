@@ -1,9 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WordCount:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="457d9ffa-a64a-43e5-ab02-13313419cb6d" name="Default" comment="finish basic and extend functions（version before test）.&#10;remain problem:comment count (line237)">
+    <list default="true" id="457d9ffa-a64a-43e5-ab02-13313419cb6d" name="Default" comment="commit exclusion file :BIN and stop.txt">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/file/wc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/COPYRIGHT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/JAWTAccessBridge-32.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/JAWTAccessBridge.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/JavaAccessBridge-32.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/JavaAccessBridge.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/WindowsAccessBridge-32.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/WindowsAccessBridge.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-console-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-datetime-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-debug-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-errorhandling-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-file-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-file-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-file-l2-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-handle-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-heap-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-interlocked-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-libraryloader-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-localization-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-memory-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-namedpipe-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-processenvironment-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-processthreads-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-processthreads-l1-1-1.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-profile-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-string-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-synch-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-synch-l1-2-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-sysinfo-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-timezone-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-core-util-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-conio-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-convert-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-environment-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-filesystem-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-heap-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-locale-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-math-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-multibyte-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-private-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-process-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-runtime-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-stdio-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-string-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-time-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/api-ms-win-crt-utility-l1-1-0.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/awt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/bci.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/client/jvm.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/concrt140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/dcpr.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/decora_sse.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/deploy.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/dt_shmem.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/dt_socket.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/dtplugin/deployJava1.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/dtplugin/npdeployJava1.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/eula.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/fontmanager.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/fxplugins.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/glass.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/glib-lite.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/gstreamer-lite.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/hprof.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/instrument.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/j2pcsc.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/j2pkcs11.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jaas_nt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jabswitch.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/java-rmi.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/java.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/java.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/java_crw_demo.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javacpl.cpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javacpl.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javafx_font.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javafx_font_t2k.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javafx_iio.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javaw.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/javaws.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jawt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jdwp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jfr.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jfxmedia.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jfxwebkit.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jjs.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jli.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jp2iexp.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jp2launcher.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jp2native.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jp2ssv.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jpeg.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jsdt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jsound.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/jsoundds.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/kcms.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/keytool.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/kinit.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/klist.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/ktab.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/lcms.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/management.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/mlib_image.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/msvcp140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/msvcr100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/net.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/nio.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/npt.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/orbd.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/pack200.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/plugin2/msvcr100.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/plugin2/npjp2.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/policytool.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/prism_common.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/prism_d3d.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/prism_sw.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/resource.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/rmid.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/rmiregistry.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/servertool.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/splashscreen.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/ssv.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/ssvagent.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/sunec.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/sunmscapi.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/t2k.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/tnameserv.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/ucrtbase.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/unpack.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/unpack200.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/vcruntime140.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/verify.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/w2k_lsa_auth.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/wsdetect.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/zip.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/charsets.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/cmm/CIEXYZ.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/cmm/GRAY.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/cmm/LINEAR_RGB.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/cmm/PYCC.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/cmm/sRGB.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/currency.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/ffjcext.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/splash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/splash@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/splash_11-lic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/splash_11@2x-lic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/access-bridge-32.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/access-bridge.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/cldrdata.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/dnsns.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/jaccess.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/jfxrt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/localedata.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/nashorn.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/sunec.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/sunjce_provider.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/sunmscapi.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/sunpkcs11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/zipfs.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fontconfig.bfc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaBrightDemiBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaBrightDemiItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaBrightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaBrightRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaSansDemiBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaSansRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaTypewriterBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fonts/LucidaTypewriterRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/invalid32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_CopyDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_CopyNoDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_LinkDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_LinkNoDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_MoveDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/win32_MoveNoDrop32x32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/javaws.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jce.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jfr.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jfxswt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jsse.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/management-agent.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/plugin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/resources.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/rt.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/cacerts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/policy/limited/US_export_policy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/policy/limited/local_policy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/policy/unlimited/US_export_policy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/policy/unlimited/local_policy.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/trusted.libraries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/tzdb.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/wc.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/WordCount_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/file/stop.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/file/test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/THIRDPARTYLICENSEREADME-JAVAFX.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/THIRDPARTYLICENSEREADME.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/Welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/bin/client/Xusage.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/accessibility.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/calendars.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/classlist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/content-types.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_de.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_es.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_it.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_ja.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_ko.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_pt_BR.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_sv.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_zh_CN.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_zh_HK.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/deploy/messages_zh_TW.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/ext/meta-index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/flavormap.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/fontconfig.properties.src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/hijrah-config-umalqura.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/i386/jvm.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/images/cursors/cursors.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/javafx.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jfr/default.jfc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jfr/profile.jfc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/jvm.hprof.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/logging.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/management/jmxremote.access" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/management/jmxremote.password.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/management/management.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/management/snmp.acl.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/meta-index" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/net.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/psfont.properties.ja" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/psfontj2d.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/blacklist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/blacklisted.certs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/java.policy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/java.security" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/security/javaws.policy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/sound.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/lib/tzmappings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BIN/jre1.8.0_161/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stop.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WordCount/Count.class" afterPath="$PROJECT_DIR$/out/production/WordCount/Count.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Count.java" afterPath="$PROJECT_DIR$/src/Count.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +274,8 @@
       <file leaf-file-name="Count.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="251" column="21" lean-forward="true" selection-start-line="251" selection-start-column="21" selection-end-line="251" selection-end-column="21" />
+            <state relative-caret-position="3151">
+              <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#parameter#0;class#Count#0" expanded="false" />
@@ -117,9 +372,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +396,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Count" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-c -w -l -a test.txt  -o result.txt -e stop.txt" />
+      <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -243,7 +501,7 @@
       <workItem from="1521218174066" duration="6124000" />
       <workItem from="1521390929859" duration="1236000" />
       <workItem from="1521417387833" duration="289000" />
-      <workItem from="1521417748316" duration="41027000" />
+      <workItem from="1521417748316" duration="45280000" />
     </task>
     <task id="LOCAL-00001" summary="OutputOnlyException(test commit in IDEA)">
       <created>1521422540716</created>
@@ -287,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521523571307</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish basic and extend functions（version before test）.&#10;problem comment count solved.">
+      <created>1521526328677</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1521526328677</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48676000" />
+    <option name="totallyTimeSpent" value="52929000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -304,17 +569,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813212" sideWeight="0.5386266" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813212" sideWeight="0.4613734" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813212" sideWeight="0.4613734" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -346,7 +610,9 @@
     <MESSAGE value="test 3 basic functions in IDEA,passed." />
     <MESSAGE value="finish basic and extend functions（version before test）." />
     <MESSAGE value="finish basic and extend functions（version before test）.&#10;remain problem:comment count (line237)" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish basic and extend functions（version before test）.&#10;remain problem:comment count (line237)" />
+    <MESSAGE value="finish basic and extend functions（version before test）.&#10;problem comment count solved." />
+    <MESSAGE value="commit exclusion file :BIN and stop.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit exclusion file :BIN and stop.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Count.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="251" column="21" lean-forward="true" selection-start-line="251" selection-start-column="21" selection-end-line="251" selection-end-column="21" />
+        <state relative-caret-position="3151">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#parameter#0;class#Count#0" expanded="false" />
@@ -459,6 +725,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>WordCount:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WordCount</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>

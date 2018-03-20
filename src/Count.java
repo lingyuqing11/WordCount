@@ -202,8 +202,6 @@ public class Count {
                         for(int i=0;i<4;i++) { //匹配
                             while (m[i].find()) {
                                 wordNum--;
-                                System.out.println(stopWord+":");
-                                System.out.println("m["+i+"]matches!");
                             }
                         }
                     }
