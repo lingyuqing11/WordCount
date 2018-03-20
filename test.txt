@@ -1,3 +1,22 @@
-void main(){
-	printf("hello world!");
-}
+void main
+{
+file writename = new file(outputPath);
+			writename.createNewFile();
+codeLine*/
+
+			bufferedwriter out = new bufferedwriter(new filewriter(writename));
+	//noteline
+			out.write(outputbuffer);
+
+/*noteline
+/*noteline
+*/
+/*noteline*/
+/*noteline
+//noteline
+*/codeLine
+			out.flush();
+			out.close();
+}//noteline
+for(){
+}/*noteline*/
