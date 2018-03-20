@@ -261,19 +261,20 @@ public class Count {
         }
         /*
          * **********************************输出部分***************************************/
+        String fname=inputFile.getName();
         /*控制台输出结果*/
         if(outputFlag==0){
             if (charFlag == 1) {
-                System.out.println(inputFile+",字符数："+charNum);
+                System.out.println(fname+",字符数："+charNum);
             }
             if (wordFlag == 1) {
-                System.out.println(inputFile+",单词数："+wordNum);
+                System.out.println(fname+",单词数："+wordNum);
             }
             if (lineFlag == 1) {
-                System.out.println(inputFile+",行数："+lineNum);
+                System.out.println(fname+",行数："+lineNum);
             }
             if(aFlag==1){
-                System.out.println(inputFile+",codeLine/blankLine/commentLine: "+codeLine+"/"+blankLine+"/"+commentLine);
+                System.out.println(fname+",codeLine/blankLine/commentLine: "+codeLine+"/"+blankLine+"/"+commentLine);
             }
         }
         /*根据-o参数将结果写入文件*/
@@ -287,16 +288,16 @@ public class Count {
                 BufferedWriter bw = new BufferedWriter(out);
                 String result = "";
                 if (charFlag == 1) {
-                    result = inputFile + ",字符数：" + charNum + "\r\n";
+                    result = fname + ",字符数：" + charNum + "\r\n";
                 }
                 if (wordFlag == 1) {
-                    result = result + inputFile + ",单词数：" + wordNum + "\r\n";
+                    result = result + fname + ",单词数：" + wordNum + "\r\n";
                 }
                 if (lineFlag == 1) {
-                    result = result + inputFile + ",行数：" + lineNum + "\r\n";
+                    result = result + fname + ",行数：" + lineNum + "\r\n";
                 }
                 if(aFlag==1){
-                    result=result+inputFile+",代码行/空行/注释行: "+codeLine+"/"+blankLine+"/"+commentLine+"\r\n";
+                    result=result+fname+",代码行/空行/注释行: "+codeLine+"/"+blankLine+"/"+commentLine+"\r\n";
                 }
                 bw.write(result); //文件覆盖式写入
                 bw.close();
@@ -324,7 +325,7 @@ public class Count {
                 if (!f.isDirectory()) { //对于文件
                     if (pattern.matcher(f.getName()).matches()) { //与正则表达式匹配
                         count(f);
-                        System.out.println("match file:" + f.getPath());
+                        System.out.println("match file:" + f.getName());
                     }
                 } else {  //对于文件夹，进行递归遍历
                     getFile(f.getPath(), filter);
