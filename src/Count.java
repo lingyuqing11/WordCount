@@ -183,7 +183,7 @@ public class Count {
         try {
             BufferedReader br = new BufferedReader(new FileReader(inputFile));
             String line;
-
+            int blockCommentFlag=0; //区块注释标志
             while ((line=br.readLine())!=null){
                 line=line.trim(); //去掉字符串前后的空白
                 /*剔除停用词表中的单词*/
@@ -220,24 +220,36 @@ public class Count {
                     }
 
                 }
-                else if(line.startsWith("//")||line.startsWith("/*")){
+                else if(line.startsWith("//")){ //匹配："//XXXXX"
                     commentLine++;
-
+                }
+                else if(line.startsWith("/*")){ //匹配区块注释："/*XXXXX or /*XXXXX*/"
+                    commentLine++;
+                    if(!line.endsWith("*/")) {
+                        blockCommentFlag = 1;    //表示区块注释未结束
+                    }
                 }
                 else if(line.startsWith("*")&&line.substring(1).startsWith("/")){
+                    blockCommentFlag=0;
                     if(line.substring(2).trim().length()>1) {
                         codeLine++; //匹配："*/XXXXXX"
                     }
                     else{
                         commentLine++; //匹配："*/X"
                     }
-
                 }
                 else if(line.endsWith("*/")){
-                    //TODO:不能吧类似于"XXX       与"/*            区别
-                    //                 XXXXX*/"        XXXXX*/"
-                    commentLine++;
-
+                    // 用于区别"XXX       和 "/*
+                    //         XXXXX*/"       XXXXX*/"
+                    if(blockCommentFlag==1){
+                        commentLine++;
+                    }
+                    else if(line.substring(1).startsWith("/*")){ //匹配："X/*XXXXXX*/"
+                        commentLine++;
+                    }
+                    else{
+                        codeLine++;
+                    }
                 }
                 else {
                     /*一个字符加注释*/
@@ -251,7 +263,6 @@ public class Count {
                     }
                 }
             }
-
         }
         catch (FileNotFoundException e1){
             System.out.println(e1.getMessage());
