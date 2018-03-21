@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457d9ffa-a64a-43e5-ab02-13313419cb6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BIN/wc.exe" afterPath="$PROJECT_DIR$/BIN/wc.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WordCount/Count.class" afterPath="$PROJECT_DIR$/out/production/WordCount/Count.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Count.java" afterPath="$PROJECT_DIR$/src/Count.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="Count.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+            <state relative-caret-position="136">
+              <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#parameter#0;class#Count#0" expanded="false" />
@@ -256,7 +254,7 @@
       <workItem from="1521417748316" duration="45552000" />
       <workItem from="1521541341503" duration="83000" />
       <workItem from="1521562269770" duration="693000" />
-      <workItem from="1521631213137" duration="3084000" />
+      <workItem from="1521631213137" duration="3174000" />
     </task>
     <task id="LOCAL-00001" summary="OutputOnlyException(test commit in IDEA)">
       <created>1521422540716</created>
@@ -314,11 +312,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521537118969</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit exclusion file :BIN and stop.txt">
+      <created>1521634384971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1521634384972</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57061000" />
+    <option name="totallyTimeSpent" value="57151000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -499,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Count.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="147" column="47" lean-forward="true" selection-start-line="147" selection-start-column="47" selection-end-line="147" selection-end-column="47" />
+        <state relative-caret-position="136">
+          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#parameter#0;class#Count#0" expanded="false" />
