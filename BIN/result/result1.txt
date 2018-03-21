@@ -1,0 +1,4 @@
+test1.txt,字符数：0
+test1.txt,单词数：0
+test1.txt,行数：1
+test1.txt,代码行/空行/注释行: 0/0/0

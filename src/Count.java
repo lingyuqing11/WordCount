@@ -108,7 +108,6 @@ public class Count {
         int charNum=0; //字符数
         int wordNum=0; //单词数
         int lineNum=1; //行数
-        int codeInLine=0; //一行内的代码字符数
         int codeLine=0; //代码行数
         int blankLine=0; //空白行数
         int commentLine=0; //注释行数
@@ -118,17 +117,17 @@ public class Count {
             int c=isr.read(); //当前字符
             int before=-1; //前一个字符
             while(c!=-1){
-                charNum++;
+                if(c!='\r') {
+                    charNum++;
+                }
+                else{
+                    lineNum++; //遇到换行符行数加一
+                }
                 try {
-
-                    // System.out.print((char)c);
-                    if(c==' '||c==','||c=='\n'||c=='\t'){ //以空格，逗号，换行和制表符分割单词
+                    if(c==' '||c==','||c=='\t'||c=='\r'){ //以空格，逗号和制表符分割单词
                         //排除连续的分隔符
                         if(before!=-1&&before!=' '&&before!=','&&before!='\n'&&before!='\t') {
                             wordNum++;
-                        }
-                        if(c=='\n'){ //遇到换行符计算行数
-                            lineNum++;
                         }
                     }
                     before=c; //更新前一个字符的值
@@ -138,8 +137,11 @@ public class Count {
                     System.out.println(e.getMessage());
                 }
             }
-            if(charNum!=0&&before!=' '&&before!=','&&before!='\n'&&before!='\t'){ //计算最后一个单词后没有分隔符的情况
+            if(charNum!=0&&before!=' '&&before!=','&&before!='\n'&&before!='\t'){ //计算最后一个单词，且后面没有分隔符的情况
                 wordNum++;
+            }
+            else if(before=='\n'){  //最后一个字符为换行符（即最后一行空白），readLine()读取不到，所以在此统计
+                blankLine++;
             }
 
         }catch (FileNotFoundException e){
@@ -334,7 +336,6 @@ public class Count {
                 if (!f.isDirectory()) { //对于文件
                     if (pattern.matcher(f.getName()).matches()) { //与正则表达式匹配
                         count(f);
-                        System.out.println("match file:" + f.getName());
                     }
                 } else {  //对于文件夹，进行递归遍历
                     getFile(f.getPath(), filter);

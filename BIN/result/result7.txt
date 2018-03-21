@@ -1,0 +1,4 @@
+test7.txt,字符数：184
+test7.txt,单词数：20
+test7.txt,行数：16
+test7.txt,代码行/空行/注释行: 5/2/9

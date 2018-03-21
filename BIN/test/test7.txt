@@ -1,0 +1,16 @@
+void main
+{
+codeLine*/
+
+		bufferedwriter out = new bufferedwriter();
+	//noteline
+/*noteline
+/*noteline
+*/
+/*noteline*/
+/*noteline
+//noteline
+*/codeLine
+}//noteline
+for(){
+}/*noteline*/

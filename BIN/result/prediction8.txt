@@ -1,0 +1,4 @@
+test8.txt,字符数：61
+test8.txt,单词数：8
+test8.txt,行数：6
+test8.txt,代码行/空行/注释行: 6/0/0

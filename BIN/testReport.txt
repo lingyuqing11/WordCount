@@ -1,0 +1,21 @@
+测试报告如下：
+格式:
+	测试用例编号
+	错误行数
+	<测试结果
+	---------
+	>预期结果
+test1:
+test2:
+test3:
+test4:
+test5:
+test6:
+test7:
+1c1
+< test7.txt,字符数：184
+---
+> test7.txt,字符数：180
+test8:
+test9:
+test10:

@@ -1,0 +1,4 @@
+test3.txt,字符数：23
+test3.txt,单词数：4
+test3.txt,行数：1
+test3.txt,代码行/空行/注释行: 1/0/0

@@ -1,0 +1,4 @@
+test4.txt,字符数：24
+test4.txt,单词数：4
+test4.txt,行数：1
+test4.txt,代码行/空行/注释行: 1/0/0

@@ -1,0 +1,4 @@
+test6.txt,字符数：12
+test6.txt,单词数：2
+test6.txt,行数：3
+test6.txt,代码行/空行/注释行: 2/1/0
